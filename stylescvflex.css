@@ -1,0 +1,410 @@
+@font-face {
+    font-family: 'Iceberg';
+    src: url(./font-families/Iceberg/Iceberg-Regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Arapey';
+    src: url(./font-families/Arapey/) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./font-families/Roboto/Roboto-Regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.FlexContainer {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    color: black;
+    margin: auto;
+    height: 795px;
+    width: 1200px;
+    flex-basis: auto;
+
+}
+
+.CajaCV_banner {
+    background: rgb(82, 12, 119);
+    background: linear-gradient(90deg, rgba(82, 12, 119, 1) 0%, rgba(82, 12, 119, 1) 46%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    top: 25px;
+    width: 1200px;
+    height: 60px;
+}
+
+.nombre {
+    font-family: 'Iceberg';
+    font-size: 38px;
+    text-align: justify;
+    margin: 10px;
+    color: white;
+}
+
+/* Aquí empieza la COLUMNA 1 */
+.CajaCV_Columna1flex {
+    background-image: url(./images/fondo\ cv\ telegram.jpg);
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Caja de contactos*/
+.contactosflexcontainer{
+    background-color: rgba(217, 217, 217, 82%);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    height: 180px;
+    width: 380px;
+    margin: 80px 5px 5px 0px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.cajacontactos{
+    margin: .3125rem;
+    font-size: 20px;
+    font-family: 'Iceberg';
+}
+
+.lineflex{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: .9375rem;
+    margin-top: 7px;
+}
+
+#iconoemail{
+    background-image: url(./images/icons8-sobre-circulado-50.png);
+    background-size: cover;
+    background-position: center;
+    height: 2.5rem ;
+    width: 2.5rem;
+    left: .3125rem;
+}
+
+#email{
+    flex-grow: 1.5;
+}
+
+#iconotlfn{
+    background-image: url(./images/icono\ telefono.png);
+    background-size: cover;
+    background-position: center;
+    height: 2.5rem ;
+    width: 2.5rem;
+}
+
+#iconolink{
+    background-image: url(./images/iconolinkedin.png);
+    background-size: cover;
+    background-position: center;
+    height: 2.5rem ;
+    width: 2.5rem;
+}
+
+/*foto*/
+.foto {
+    background-image: url(./images/foto\ cv\ -\ copia.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 150%;
+    border: 3px solid; color: #555555;
+    height: 300px;
+    width: 300px;
+    margin: 5px 5px 5px 40px;
+}
+
+/*caja de hobbies*/
+
+.hobbies {
+    background-color: rgba(217, 217, 217, 82%);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    height: 180px;
+    width: 380px;
+}
+
+.phobbies{
+    color: black;
+    font-family: 'Iceberg';
+    font-size: 1.375rem;
+    justify-content: left;
+    margin-left: .3125rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#icono_leer{
+    background-image: url(./images/iconoliteratura.png);
+    background-size: cover;
+    background-position: center;
+    height: 2.5rem ;
+    width: 2.5rem;
+}
+
+#icono_juegos{
+    background-image: url(./images/icono\ mando\ consola.png);
+    background-size: cover;
+    background-position: center;
+    height: 2.5rem ;
+    width: 2.5rem;
+}
+
+#texto_hobbies{
+    margin-top: 1.25rem
+}
+
+#icono_escribir{
+    background-image: url(./images/icono\ máquina\ de\ escribir.png);
+    background-size: cover;
+    background-position: center;
+    height: 2.5rem ;
+    width: 2.5rem;
+}
+
+#icono_peliculas{
+    background-image: url(./images/icono\ película.png);
+    background-size: cover;
+    background-position: center;
+    height: 2.5rem ;
+    width: 2.5rem;
+}
+
+#icono_coche{
+    background-image: url(./images/icono\ coche.png);
+    background-size: cover;
+    background-position: center;
+    height: 2.5rem ;
+    width: 2.5rem;
+    margin-left: 3.8125rem;
+}
+
+#garantia_juvenil{
+    margin-left: 1.875rem;
+    font-size: 23px;
+}
+
+/* Aquí empieza la COLUMNA 2 */
+.CajaCV_Columna2   {
+    background-color: white;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: .3125rem;
+    margin-top: 5.3125rem;
+    padding: .3125rem;
+}
+
+/*caja experiencia*/
+#texto_experiencia{
+    height: 1.25rem;
+    width:23.125rem;
+    font-size: 1.75rem;
+    font-family: 'Iceberg';
+    text-align: center;
+    margin-top: 2.5rem
+}
+
+.caja_experiencia {
+    height: auto;
+    width: auto;
+    flex-flow: column nowrap;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+.profesora_particular_correctora{
+    background-color: rgba(13, 181, 150, 56%);
+    border-radius: 20px;
+    height: 2.8125rem;
+    width: auto;
+}
+
+.teleoperadora{
+    background-color: rgba(217, 217, 217, 82%);
+    border-radius: 20px;
+    height: 2.5rem;
+    width: auto;
+}
+
+/*caja formación*/
+
+.formacion_titulo{
+    background-color: white;
+    height: 1.25rem;
+    width:23.125rem;
+    margin: .3125rem;
+    font-size: 1.875rem;
+    text-align: center;
+    font-family: 'Iceberg'; 
+}
+
+.formacion_caja{
+    background: rgb(13, 181, 150);
+    background: rgb(13, 181, 150);
+    background: linear-gradient(180deg, rgba(13, 181, 150, 0.8018557764902836) 0%, rgba(13, 181, 150, 0.6421919109440651) 48%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 15%;
+    height: 23.75rem;
+    width: 23.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.p_experiencia{
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, serif;
+    padding: .625rem;
+}
+
+.icono_formacion{
+    background-image: url(./images/marcapaginas.png);
+    background-size: cover;
+    background-position: center;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+/*Aqui comienza la Columna 3*/
+
+.CajaCV_Columna3{
+    background-color: rgb(255, 255, 255);
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.competencias_titulo{
+    background-image: url(./images/fondo\ cv\ telegram.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid; color: black;
+    width: auto;
+    height: 3.125rem;
+    font-size: 2.1875rem;
+    font-family: 'Iceberg';
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 6.25rem;
+}
+
+.competencias_blandas{
+    border: 1px solid; color: black;
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+    background-color: #580897;
+    width: auto;
+    height: 8.125rem;
+    color: white;
+    font-family: 'Arapey';
+    font-size: 1.25rem;
+}
+
+.pcompetencias_blandas{
+    margin-top: .3125rem;
+    font-family: 'Arapey';
+}
+
+.competencias_tecnicas{
+    background-color: #580897;
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+    height: 15.625rem;
+    width: auto;
+    color: white;
+    font-family: 'Arapey';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#adobe{
+    margin-left: .9375rem;
+    font-size: 1.25rem;
+    margin-top: .625rem;
+}
+
+#adobe_photoshop{
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-top: .625rem;
+    background-image: url(./images/icons8-adobe-photoshop-48.png);
+    background-position: center;
+    background-size: cover;
+}
+#adobe_ilustrator{
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-top: .625rem;
+    background-image: url(./images/icons8-adobe-illustrator-48.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#adobe_indesign{
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-top: .625rem;
+    background-image: url(./images/icons8-adobe-indesign-48.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.idiomas{
+    background-color: #D9D9D9;
+    border-top-left-radius: .9375rem;
+    border-bottom-left-radius: .9375rem;
+    width: auto;
+    height: 8.75rem;
+}
+
+#languagues_cajaflex{
+display: flex;
+flex-flow: column nowrap;
+justify-content: space-evenly;
+font-family: 'Roboto';
+}
+
+#idioma_titulo{
+    margin-top: .625rem;
+    margin-left: .9375rem;
+}
+
+.barra_idiomas_icono{
+    display: flex;
+    flex-direction: row;
+    margin-left: .625rem;
+    justify-content: space-evenly;
+}
+
+#japones{
+    margin-left: .9375rem;
+}
+#icono_relleno{
+width: 1.875rem;
+height:1.875rem;
+background-image: url(./images/icons8-círculo-rellenado-60.png);
+background-size: cover;
+background-position: center;
+}
+
+#icono_vacio{
+    width: 1.875rem;
+    height:1.875rem;
+    background-image: url(./images/icons8-círculo-delgado-60.png);
+    background-size: cover;
+    background-position: center;
+}
